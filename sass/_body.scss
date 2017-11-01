@@ -1,0 +1,181 @@
+.container-fluid{
+  padding: 60px 50px;
+}
+
+
+bold{
+  font-weight: 700;
+}
+
+.jumbotron{
+  color: white;
+  background-color: $background-orange;
+  border-radius: 0px;
+  .input-group{
+    margin: auto 5%;
+    width: 90%;
+    .form-control{
+    }
+    .input-group-addon{
+      border: 0px;
+      margin-left: -1px;
+      background-color: #d9534f;
+      color: white;
+      border: 1px solid rgb(212, 63, 58);
+      &:hover{
+        background-color: #c9302c;
+        border-color: #ac2925;
+      }
+    }
+  }
+}
+.about-company{
+  p{
+    color: $p-color;
+  }
+  button{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 35px;
+    width: 100%;
+    &:hover{
+      background-color: #e6e6e6;
+      border-color: #adadad;
+    }
+  }
+  :last-child{
+    text-align: center;
+  }
+}
+
+.our-values{
+  :first-child{
+    text-align: center;
+  }
+  h2{
+    margin-top: 1em;
+  }
+  h4{
+    font-weight: 400;
+  }
+  p{
+    color: $p-color;
+  }
+}
+
+.services{
+  text-align: center;
+  img{
+    margin-bottom: 15px;
+  }
+  p{
+    color: $p-color;
+  }
+  h4{
+    font-weight: 300;
+  }
+}
+
+.portfolio{
+  text-align: center;
+  div{
+    color: $p-color;
+  }
+  img{
+    margin-bottom: 10px;
+  } 
+}
+
+.referencies{
+  text-align: center;
+  .carousel{
+    .carousel-control-prev-icon{
+      background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23f4511e' viewBox='0 0 8 8'><path d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+    }
+    .carousel-control-next-icon{
+      background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23f4511e' viewBox='0 0 8 8'><path d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+    }
+    .carousel-caption{
+      color: rgb(41, 43, 44);
+    }
+    .carousel-indicators li{
+      background-color: $background-orange;
+      opacity: 0.6;
+    }
+    .carousel-indicators .active{
+      background-color: $background-orange;
+      opacity: 1;
+    }
+  }
+}
+
+.pricing{
+  text-align: center;
+  .col-md-3{
+    color: $p-color;
+    border: 1px solid $background-orange;
+    padding: 0;
+    margin: 1rem auto;
+    div:nth-child(2n){  
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+    div:last-child{
+      padding: 1rem 0;
+      button{
+        background-color: $background-orange;
+        color: #fff;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .header{
+    background-color: $background-orange;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+}
+
+.contact{
+  h2{
+    text-align: center;
+  }
+  p{
+    color: $p-color;
+    font-weight: 500;
+  }
+  .row{
+    margin-bottom: 1rem;
+    div {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.map{
+  height: 30rem;
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .jumbotron .input-group{
+    margin: auto 15%;
+    width: 70%;
+  }
+  .about-company{
+    button{
+      margin-bottom: 0;
+      width: auto;
+    }
+  }
+  .contact{
+    .row{
+      margin-bottom: 1rem;
+    }
+  }
+}
