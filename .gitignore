@@ -1,2 +1,2 @@
 # ignore modules installed by npm
-node_nodules
+/node_nodules
