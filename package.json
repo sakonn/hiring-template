@@ -24,7 +24,7 @@
     "imagemin-pngquant": "^4.2.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta.2",
     "gulp-server-livereload": "^1.9.2",
     "jquery": "^1.12.4",
     "popper.js": "^1.12.6",
