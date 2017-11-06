@@ -1,6 +1,7 @@
 body{
-  background-color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
+  min-width: 340px;
+  max-width: 3840px;
 }
 
 .container-fluid{
@@ -34,9 +35,11 @@ bold{
   li{
     padding: 0.25rem 0;
     &:hover{
+      a{
+        color: $background-orange;
+        text-decoration: none;
+      }
       background-color: white;
-      color: $background-orange;
-      text-decoration: none;
     }
   }
   .container-fluid{
@@ -96,6 +99,7 @@ bold{
 }
 
 .our-values{
+  background-color: #ededed;
   h2{
     margin-top: 1em;
     font-weight: 700;
@@ -125,6 +129,7 @@ bold{
 }
 
 .portfolio{
+  background-color: #ededed;
   text-align: center;
   h3{
     font-weight: 600;
@@ -138,6 +143,7 @@ bold{
 }
 
 .referencies{
+  background-color: #ededed;
   text-align: center;
   h2{
     font-weight: 600;
@@ -204,6 +210,7 @@ bold{
 }
 
 .contact{
+  background-color: #ededed;
   h2{
     text-align: center;
     font-weight: 600;
@@ -266,6 +273,11 @@ bold{
     li{
       
       padding-left: 5px;
+    }
+  }
+  .jumbotron{
+    h1{
+      font-size: 2rem;
     }
   }
 }
