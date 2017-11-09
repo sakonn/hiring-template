@@ -9,269 +9,320 @@
 
 /* line 1, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
   min-width: 340px;
   max-width: 3840px; }
 
-/* line 7, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 8, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .container-fluid {
-  padding: 60px 50px; }
+  padding: 4em 3.5em; }
 
-/* line 11, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 12, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .btn-custom {
   border: 1px solid #ccc;
   background-color: #fff;
   color: #333;
-  margin-bottom: 35px; }
-  /* line 16, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  margin-bottom: 2.3em; }
+  /* line 17, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .btn-custom:hover {
     background-color: #e6e6e6;
     border-color: #adadad; }
 
-/* line 22, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 23, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 bold {
   font-weight: 700; }
 
-/* line 26, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 27, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+h2 {
+  font-size: 170%;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #303030; }
+
+/* line 34, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+h4 {
+  font-size: 130%;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px; }
+
+/* line 42, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+p {
+  margin: 0 0 0.8em;
+  color: #818181; }
+
+/* line 47, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.icon {
+  font-size: 10em !important;
+  color: #f4511e; }
+
+/* line 52, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.icon-small {
+  font-size: 3.5em !important;
+  color: #f4511e; }
+
+/* line 57, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .navbar-custom {
-  padding: 0 1rem;
+  font-family: Montserrat, sans-serif;
+  padding: 0;
   color: white;
-  font-weight: 300;
-  font-size: 0.9rem;
-  letter-spacing: 2px; }
-  /* line 32, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  font-size: 0.8rem;
+  letter-spacing: 4px; }
+  /* line 63, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .navbar-custom .navbar-brand {
+    padding: 0.3em 1em 0.7em 0; }
+  /* line 66, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .navbar-custom a {
     color: white; }
-  /* line 35, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 69, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .navbar-custom li {
     padding: 0.25rem 0; }
-    /* line 37, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    /* line 71, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
     .navbar-custom li:hover {
       background-color: white; }
-      /* line 38, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+      /* line 72, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
       .navbar-custom li:hover a {
         color: #f4511e;
         text-decoration: none; }
-  /* line 45, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .navbar-custom .container-fluid {
-    padding: 0 50px; }
-  /* line 48, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 80, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .navbar-custom .navbar-toggler:hover {
+    background-color: #ddd; }
+  /* line 84, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.4)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); }
 
-/* line 54, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 90, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .jumbotron {
   color: white;
+  font-family: Montserrat, sans-serif;
   background-color: #f4511e;
-  border-radius: 0px;
-  font-weight: 700; }
-  /* line 59, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  border-radius: 0;
+  padding: 6.5em 1.7em; }
+  /* line 96, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .jumbotron h1 {
-    font-size: 4rem;
-    font-weight: 700; }
-  /* line 63, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    font-size: 4.2em;
+    font-weight: 500; }
+  /* line 100, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .jumbotron p {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 200; }
+  /* line 105, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .jumbotron .input-group {
     margin: auto 5%;
     width: 90%;
-    padding-bottom: 30px; }
-    /* line 67, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    padding-bottom: 2em; }
+    /* line 109, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
     .jumbotron .input-group .input-group-addon {
-      border: 0px;
+      border: 0;
       margin-left: -1px;
       background-color: #d9534f;
       color: white;
       border: 1px solid #d43f3a; }
-      /* line 73, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+      /* line 115, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
       .jumbotron .input-group .input-group-addon:hover {
         background-color: #c9302c;
         border-color: #ac2925; }
 
-/* line 82, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 124, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .about-company h2 {
   font-weight: 600; }
 
-/* line 85, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 127, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.about-company h4 {
+  font-weight: 500; }
+
+/* line 130, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .about-company p {
   color: #818181; }
 
-/* line 88, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 133, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .about-company button {
   border: 1px solid #ccc;
   background-color: #fff;
   color: #333;
-  margin-bottom: 35px;
+  margin-bottom: 2.3em;
   width: 100%; }
-  /* line 94, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 139, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .about-company button:hover {
     background-color: #e6e6e6;
     border-color: #adadad; }
 
-/* line 101, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 146, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .our-values {
-  background-color: #ededed; }
-  /* line 103, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  background-color: #f6f6f6; }
+  /* line 148, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .our-values h2 {
     margin-top: 1em;
     font-weight: 700; }
-  /* line 107, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 152, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .our-values h4 {
     font-weight: 400; }
-  /* line 110, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 155, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .our-values p {
     color: #818181; }
 
-/* line 115, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-.services {
-  text-align: center; }
-  /* line 117, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .services h3 {
-    font-weight: 600; }
-  /* line 120, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .services img {
-    margin-bottom: 15px; }
-  /* line 123, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .services p {
-    color: #818181; }
-  /* line 126, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .services h4 {
-    font-weight: 400; }
-
-/* line 131, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 160, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .portfolio {
-  background-color: #ededed;
-  text-align: center; }
-  /* line 134, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .portfolio h3 {
-    font-weight: 600; }
-  /* line 137, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .portfolio div {
-    color: #818181; }
-  /* line 140, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  background-color: #f6f6f6; }
+  /* line 162, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .portfolio .portfolio-image {
+    color: #818181;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 18px; }
+  /* line 168, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .portfolio img {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto; }
 
-/* line 145, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 175, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .referencies {
-  background-color: #ededed;
-  text-align: center; }
-  /* line 148, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .referencies h2 {
-    font-weight: 600; }
-  /* line 152, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  background-color: #f6f6f6; }
+  /* line 178, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-indicators {
-    bottom: -40px; }
-  /* line 155, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .referencies .carousel .carousel-inner {
-    height: 100px;
-    padding: 40px 0; }
-  /* line 159, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    bottom: -2em; }
+  /* line 182, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .referencies .carousel .carousel-inner h4 {
+    margin: 0; }
+  /* line 185, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .referencies .carousel .carousel-inner span {
+    font-style: italic; }
+  /* line 189, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23f4511e' viewBox='0 0 8 8'><path d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>"); }
-  /* line 162, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 192, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23f4511e' viewBox='0 0 8 8'><path d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>"); }
-  /* line 165, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 195, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-caption {
     color: #292b2c; }
-  /* line 168, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 198, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-indicators li {
     background-color: #f4511e;
     opacity: 0.6; }
-  /* line 172, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 202, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .referencies .carousel .carousel-indicators .active {
     background-color: #f4511e;
     opacity: 1; }
 
-/* line 179, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-.pricing {
-  text-align: center; }
-  /* line 181, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .pricing h3 {
-    font-weight: 600; }
-  /* line 184, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .pricing .col-md-3 {
+/* line 210, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.pricing div {
+  flex-grow: 1;
+  max-width: none; }
+
+/* line 214, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.pricing .pricing-box {
+  border: 1px solid #f4511e;
+  color: #818181 !important;
+  margin: 1em 0;
+  padding-bottom: 1.5em; }
+  /* line 219, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .pricing .pricing-box .header {
+    padding: 0.95em 0.17em; }
+  /* line 222, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .pricing .pricing-box .offer {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+    margin-bottom: 1.3em; }
+  /* line 228, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .pricing .pricing-box .price h2 {
     color: #818181;
-    border: 1px solid #f4511e;
-    padding: 0;
-    margin: 1rem auto; }
-    /* line 189, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-    .pricing .col-md-3 div:nth-child(2n) {
-      border-bottom: 1px solid #ddd;
-      padding: 1rem 0; }
-    /* line 193, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-    .pricing .col-md-3 div:last-child {
-      padding: 1rem 0; }
-      /* line 195, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-      .pricing .col-md-3 div:last-child button {
-        background-color: #f4511e;
-        color: #fff;
-        margin-top: 1rem; }
-  /* line 202, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .pricing .header {
+    margin-bottom: 5px; }
+  /* line 232, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .pricing .pricing-box .price button {
     background-color: #f4511e;
-    width: 100%;
-    padding: 1rem 0;
-    font-size: 2rem;
     color: #fff; }
 
-/* line 212, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 239, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+.pricing .header {
+  background-color: #f4511e;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #fff; }
+
+/* line 249, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .contact {
-  background-color: #ededed; }
-  /* line 214, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  background-color: #f6f6f6; }
+  /* line 251, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact h2 {
     text-align: center;
     font-weight: 600; }
-  /* line 218, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 255, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact p {
     color: #818181; }
-  /* line 221, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 258, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact .row {
     margin-bottom: 1rem; }
-    /* line 223, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    /* line 260, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
     .contact .row div {
       margin-bottom: 1rem; }
-  /* line 227, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 264, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact button {
     float: right;
     padding: 6px 12px; }
-  /* line 231, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 268, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact form .row {
     margin-bottom: 0; }
 
-/* line 236, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 273, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .map {
   height: 30rem;
   width: 100%; }
 
-/* line 242, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 279, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .footer .toTop {
   height: 30px;
   width: 30px;
   background-image: url("../images/up.svg");
   margin: auto; }
 
-/* line 248, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+/* line 285, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
 .footer p {
   padding-top: 10px; }
 
 @media (min-width: 768px) {
-  /* line 254, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 291, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .jumbotron .input-group {
     margin: auto 15%;
     width: 70%; }
-  /* line 259, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 296, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .about-company button {
     margin-bottom: 0;
     width: auto; }
-  /* line 265, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 302, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .contact .row {
     margin-bottom: 1rem; } }
 
 @media (max-width: 768px) {
-  /* line 273, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
-  .navbar-custom li {
-    padding-left: 5px; }
-  /* line 279, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  /* line 309, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0; }
+  /* line 313, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+  .navbar-custom {
+    padding: 0 15px; }
+    /* line 314, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    .navbar-custom .navbar-collapse {
+      margin: 0 -15px !important; }
+      /* line 316, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+      .navbar-custom .navbar-collapse ul {
+        margin: 7.5px 0; }
+      /* line 319, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+      .navbar-custom .navbar-collapse li {
+        padding: 0; }
+        /* line 321, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+        .navbar-custom .navbar-collapse li a {
+          padding: 10px 15px;
+          font-size: 12px; }
+    /* line 327, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
+    .navbar-custom .navbar-collapse {
+      border-top: 1px solid #e7e7e7; }
+  /* line 333, /home/jakub/projects/frontend/sited-template/sass/_body.scss */
   .jumbotron h1 {
     font-size: 2rem; } }
 

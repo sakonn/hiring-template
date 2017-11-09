@@ -5,6 +5,7 @@
   <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="node_modules/popper.js/dist/popper.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -14,8 +15,8 @@
 </head>
 <body id="Page" data-spy="scroll">
   
-<nav class="navbar navbar-expand-md navbar-custom sticky-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-custom fixed-top">
+  <div class="container">
     <a class="navbar-brand" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,10 +59,10 @@
 <div class="container-fluid about-company" id="about">
   <div class="row">
     <div class="col-md-8">
-      <h2>About Company Page</h2>
+      <h2>ABOUT COMPANY PAGE</h2>
       <br>
       <h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </h4>
       <br>
       <p>
@@ -71,7 +72,7 @@
       <button type="button" class="btn btn-light">Get in touch</button>
     </div>
     <div class="col-md-4 text-center">
-      <img src="http://via.placeholder.com/200x150">
+      <i class="fa fa-signal icon" aria-hidden="true"></i>
     </div>
   </div>
 </div>
@@ -79,7 +80,7 @@
 <div class="container-fluid our-values">
   <div class="row">
     <div class="col-md-4 text-center">
-      <img src="http://via.placeholder.com/200x150">
+      <i class="fa fa-globe icon" aria-hidden="true"></i>
     </div>
     <div class="col-md-8">
       <h2>OUR VALUES</h2>
@@ -95,25 +96,25 @@
   </div>
 </div>
   
-<div class="container-fluid services" id="sevices">
-  <h3>SERVICES</h3>
-  <p>What we offer</p>
+<div class="container-fluid services text-center" id="sevices">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
   <br>
   <div class="row">
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-power-off icon-small" aria-hidden="true"></i>
       <h4>POWER</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-heart icon-small" aria-hidden="true"></i>
       <h4>LOVE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-briefcase icon-small" aria-hidden="true"></i>
       <h4>JOB DONE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
@@ -121,19 +122,19 @@
   </div>
   <div class="row">
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-leaf icon-small" aria-hidden="true"></i>
       <h4>GREEN</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-certificate icon-small" aria-hidden="true"></i>
       <h4>CERTIFIED</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/50x50">
+      <i class="fa fa-wrench icon-small" aria-hidden="true"></i>
       <h4>HARD WORK</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
@@ -141,45 +142,71 @@
   </div>
 </div>
 
-<div class="container-fluid portfolio" id="portfolio" >
-  <h3>PORTFOLIO</h3>
+<div class="container-fluid portfolio text-center" id="portfolio" >
+  <h2>PORTFOLIO</h2>
   <br>
   <br>
-  <p>What we have created</p>
+  <h4>What we have created</h4>
   <div class="row">
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/200x200">
-      <h5>Paris</h5>
-      <p>This is Paris</p>
+      <div class="portfolio-image">
+        <img src="http://via.placeholder.com/300x300">
+        <h5><bold>Paris</bold></h5>
+        <p>This is Paris</p>
+      </div>
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/200x200">
-      <h5>New York</h5>
-      <p>This is New York</p>
+      <div class="portfolio-image">
+        <img src="http://via.placeholder.com/300x300">
+        <h5><bold>New York</bold></h5>
+        <p>This is New York</p>
+      </div>  
     </div>
     <div class="col-md-4">
-      <img src="http://via.placeholder.com/200x200">
-      <h5>San Francisco</h5>
-      <p>This is San Francisco</p>
+      <div class="portfolio-image">
+        <img src="http://via.placeholder.com/300x300">
+        <h5><bold>San Francisco</bold></h5>
+        <p>This is San Francisco</p>
+      </div>
     </div>
   </div>
 </div>
   
-<div class="container-fluid referencies">
+<div class="container-fluid referencies text-center">
   <h2>WHAT OUR CUSTOMERS SAY</h2>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <h3>First slide</h3>
-        <p>description</p>
+        <h4>
+          <span>
+            "This company is the best. I am so happy with the result!"
+          </span>
+          <br>
+          Michael Roe, Vice President, Comment Box
+        </h4>
       </div>
       <div class="carousel-item">
-        <h3>Second slide</h3>
-        <p>description</p>
+        <h4>
+          <span>
+            "One word... WOW!!"
+          </span>
+          <br>
+          John Doe, Salesman, Rep Inc
+        </h4>
+      </div>
+      <div class="carousel-item">
+        <h4>
+          <span>
+            "Could I... BE any more happy with this company?"
+          </span>
+          <br>
+          Chandler Bing, Actor, FriendsAlot
+        </h4>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -193,55 +220,73 @@
   </div>
 </div>
   
-<div class="container-fluid pricing" id="pricing">
-  <h3>PRICING</h3>
-  <br>
+<div class="container-fluid pricing text-center" id="pricing">
+  <h2>PRICING</h2>
   <p>Choose a payment plan that works for you</p>
+  <br>
   <div class="row">
     <div class="col-md-3">
-      <div class="col-xs-12 header">Basic</div>
-      <div class="col-xs-12">
-        <p><bold>20</bold> Lorem</p>
-        <p><bold>15</bold> Ipsum</p>
-        <p><bold>5</bold> Dolor</p>
-        <p><bold>2</bold> Sit</p>
-        <p><bold>Endless</bold> Amet</p>
-      </div>
-      <div class="col-xs-12">
-        <h2>$19</h2>
-        <p>per month</p>
-        <button type="button" class="btn btn-pricing">Sign Up</button>
-      </div>
+      <div class="pricing-box">
+        <div class="header">
+          <h1>
+            Basic
+          </h1>
+        </div>
+        <div class="offer">
+          <p><bold>20</bold> Lorem</p>
+          <p><bold>15</bold> Ipsum</p>
+          <p><bold>5</bold> Dolor</p>
+          <p><bold>2</bold> Sit</p>
+          <p><bold>Endless</bold> Amet</p>
+        </div>
+        <div class="price">
+          <h2>$19</h2>
+          <p>per month</p>
+          <button type="button" class="btn btn-pricing">Sign Up</button>
+        </div>
+      </div>  
     </div>
     <div class="col-md-3">
-      <div class="col-xs-12 header">Pro</div>
-      <div class="col-xs-12">
-        <p><bold>50</bold> Lorem</p>
-        <p><bold>25</bold> Ipsum</p>
-        <p><bold>5</bold> Dolor</p>
-        <p><bold>5</bold> Sit</p>
-        <p><bold>Endless</bold> Amet</p>
-      </div>
-      <div class="col-xs-12">
-        <h2>$29</h2>
-        <p>per month</p>
-        <button type="button" class="btn btn-pricing">Sign Up</button>
-      </div>
+      <div class="pricing-box">
+        <div class="header">
+          <h1>
+            Pro
+          </h1>
+        </div>
+        <div class="offer">
+          <p><bold>50</bold> Lorem</p>
+          <p><bold>25</bold> Ipsum</p>
+          <p><bold>5</bold> Dolor</p>
+          <p><bold>5</bold> Sit</p>
+          <p><bold>Endless</bold> Amet</p>
+        </div>
+        <div class="price">
+          <h2>$29</h2>
+          <p>per month</p>
+          <button type="button" class="btn btn-pricing">Sign Up</button>
+        </div>
+      </div>  
     </div>
     <div class="col-md-3">
-      <div class="col-xs-12 header">Premium</div>
-      <div class="col-xs-12">
-        <p><bold>100</bold> Lorem</p>
-        <p><bold>50</bold> Ipsum</p>
-        <p><bold>25</bold> Dolor</p>
-        <p><bold>10</bold> Sit</p>
-        <p><bold>Endless</bold> Amet</p>
-      </div>
-      <div class="col-xs-12 ">
-        <h2>$49</h2>
-        <p>per month</p>
-        <button type="button" class="btn btn-pricing">Sign Up</button>
-      </div>
+      <div class="pricing-box">
+        <div class="header">
+          <h1>
+            Premium
+          </h1>
+        </div>
+        <div class="offer">
+          <p><bold>100</bold> Lorem</p>
+          <p><bold>50</bold> Ipsum</p>
+          <p><bold>25</bold> Dolor</p>
+          <p><bold>10</bold> Sit</p>
+          <p><bold>Endless</bold> Amet</p>
+        </div>
+        <div class="price">
+          <h2>$49</h2>
+          <p>per month</p>
+          <button type="button" class="btn btn-pricing">Sign Up</button>
+        </div>
+      </div>  
     </div>
   </div>
 </div>
@@ -275,7 +320,7 @@
           </div>
         </div>
         <div class="input-group">
-          <textarea class="form-control" type="text"  placeholder="Comment" rows="3">
+          <textarea type="text" class="form-control" placeholder="Comment" rows="3">
           </textarea>
         </div>  
       </form>
