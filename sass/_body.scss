@@ -45,7 +45,7 @@ p{
 }
 
 .icon{
-  font-size: 10em !important;
+  font-size: 13.3em;
   color: #f4511e;
 }
 
@@ -54,20 +54,46 @@ p{
   color: #f4511e;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appear-in{
+  opacity: 0;
+}
+
+.appear{
+  animation-name: appear;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
 .navbar-custom{
   font-family: Montserrat, sans-serif;
-  padding: 0;
+  background-color: $background-orange;
   color: white;
   font-size: 0.8rem;
   letter-spacing: 4px;
+  padding: 0;
   .navbar-brand{
-    padding: 0.3em 1em 0.7em 0;
+    //padding: 0.3em 1em 0.7em 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   a{
     color: white;
   }
   li{
-    padding: 0.25rem 0;
+    a{
+      padding: 1em;
+    }
     &:hover{
       a{
         color: $background-orange;
@@ -75,8 +101,15 @@ p{
       }
       background-color: white;
     }
+    .active{
+      background-color: white;
+      color: $background-orange;
+    }
   }
   .navbar-toggler{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding: 0.15em 0.4em;
     &:hover{
       background-color: #ddd;
     }
@@ -85,7 +118,6 @@ p{
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.4)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
   }
 }
-
 
 .jumbotron{
   color: white;
@@ -170,10 +202,6 @@ p{
     width: 100%;
     height: auto;
   } 
-}
-
-.referencies{
-  background-color: $background-grey;
   .carousel{
     .carousel-indicators{
       bottom: -2em;
@@ -255,18 +283,16 @@ p{
   p{
     color: $p-color;
   }
-  .row{
-    margin-bottom: 1rem;
-    div {
-      margin-bottom: 1rem;
-    }
-  }
   button{
     float: right;
     padding: 6px 12px;
+    margin-bottom: 0;
+    margin-top: 1em;
   }
   form .row{
-    margin-bottom: 0;
+    div {
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -311,6 +337,10 @@ p{
     margin: 25px 0;
   }
   .navbar-custom{
+    .container{
+      max-width: 100%;
+      margin: 0 1em;
+    }
     .navbar-collapse{
       margin: 0 -15px !important;
       ul{
@@ -327,11 +357,13 @@ p{
     .navbar-collapse{
       border-top: 1px solid #e7e7e7;
     }
-    padding: 0 15px;
   }
   .jumbotron{
     h1{
       font-size: 2rem;
     }
+  }
+  .col-md-3{
+    //margin: 1em 0;
   }
 }

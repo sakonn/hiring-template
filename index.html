@@ -2,16 +2,15 @@
 <html lang="SK">
 <head>
   <title>Demo template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
+  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+  <meta name="description" content="Demo template">
+  <meta charset="utf-8">
   <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/popper.js/dist/popper.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbd-woyijokiruxlsTr5d8MBXgkxV69ik&callback=myMap"></script>
-  <script src="js/main.js" type="text/javascript"></script>
+  
 </head>
 <body id="Page" data-spy="scroll">
   
@@ -71,16 +70,16 @@
       <br>
       <button type="button" class="btn btn-light">Get in touch</button>
     </div>
-    <div class="col-md-4 text-center">
-      <i class="fa fa-signal icon" aria-hidden="true"></i>
+    <div class="col-md-4 text-center icon">
+      <i class="fa fa-signal" aria-hidden="true"></i>
     </div>
   </div>
 </div>
   
 <div class="container-fluid our-values">
   <div class="row">
-    <div class="col-md-4 text-center">
-      <i class="fa fa-globe icon" aria-hidden="true"></i>
+    <div class="col-md-4 text-center icon appear-in">
+      <i class="fa fa-globe" aria-hidden="true"></i>
     </div>
     <div class="col-md-8">
       <h2>OUR VALUES</h2>
@@ -101,39 +100,41 @@
   <h4>What we offer</h4>
   <br>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-power-off icon-small" aria-hidden="true"></i>
       <h4>POWER</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-heart icon-small" aria-hidden="true"></i>
       <h4>LOVE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-briefcase icon-small" aria-hidden="true"></i>
       <h4>JOB DONE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
   </div>
+  <br>
+  <br>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-leaf icon-small" aria-hidden="true"></i>
       <h4>GREEN</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-certificate icon-small" aria-hidden="true"></i>
       <h4>CERTIFIED</h4>
       <p>Lorem ipsum dolor sit amet..</p>
       <br>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 appear-in">
       <i class="fa fa-wrench icon-small" aria-hidden="true"></i>
       <h4>HARD WORK</h4>
       <p>Lorem ipsum dolor sit amet..</p>
@@ -143,80 +144,85 @@
 </div>
 
 <div class="container-fluid portfolio text-center" id="portfolio" >
-  <h2>PORTFOLIO</h2>
-  <br>
-  <br>
-  <h4>What we have created</h4>
   <div class="row">
-    <div class="col-md-4">
-      <div class="portfolio-image">
-        <img src="http://via.placeholder.com/300x300">
-        <h5><bold>Paris</bold></h5>
-        <p>This is Paris</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="portfolio-image">
-        <img src="http://via.placeholder.com/300x300">
-        <h5><bold>New York</bold></h5>
-        <p>This is New York</p>
-      </div>  
-    </div>
-    <div class="col-md-4">
-      <div class="portfolio-image">
-        <img src="http://via.placeholder.com/300x300">
-        <h5><bold>San Francisco</bold></h5>
-        <p>This is San Francisco</p>
+    <div class="col-md-12">
+      <h2>PORTFOLIO</h2>
+      <br>
+      <h4>What we have created</h4>
+      <div class="row">
+        <div class="col-md-4 appear-in">
+          <div class="portfolio-image">
+            <img src="http://via.placeholder.com/300x300">
+            <h5><bold>Paris</bold></h5>
+            <p>This is Paris</p>
+          </div>
+        </div>
+        <div class="col-md-4 appear-in">
+          <div class="portfolio-image">
+            <img src="http://via.placeholder.com/300x300">
+            <h5><bold>New York</bold></h5>
+            <p>This is New York</p>
+          </div>  
+        </div>
+        <div class="col-md-4 appear-in">
+          <div class="portfolio-image">
+            <img src="http://via.placeholder.com/300x300">
+            <h5><bold>San Francisco</bold></h5>
+            <p>This is San Francisco</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-  
-<div class="container-fluid referencies text-center">
-  <h2>WHAT OUR CUSTOMERS SAY</h2>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <h4>
-          <span>
-            "This company is the best. I am so happy with the result!"
-          </span>
-          <br>
-          Michael Roe, Vice President, Comment Box
-        </h4>
-      </div>
-      <div class="carousel-item">
-        <h4>
-          <span>
-            "One word... WOW!!"
-          </span>
-          <br>
-          John Doe, Salesman, Rep Inc
-        </h4>
-      </div>
-      <div class="carousel-item">
-        <h4>
-          <span>
-            "Could I... BE any more happy with this company?"
-          </span>
-          <br>
-          Chandler Bing, Actor, FriendsAlot
-        </h4>
-      </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>WHAT OUR CUSTOMERS SAY</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4>
+              <span>
+                "This company is the best. I am so happy with the result!"
+              </span>
+              <br>
+              Michael Roe, Vice President, Comment Box
+            </h4>
+          </div>
+          <div class="carousel-item">
+            <h4>
+              <span>
+                "One word... WOW!!"
+              </span>
+              <br>
+              John Doe, Salesman, Rep Inc
+            </h4>
+          </div>
+          <div class="carousel-item">
+            <h4>
+              <span>
+                "Could I... BE any more happy with this company?"
+              </span>
+              <br>
+              Chandler Bing, Actor, FriendsAlot
+            </h4>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>  
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 </div>
   
@@ -225,7 +231,7 @@
   <p>Choose a payment plan that works for you</p>
   <br>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 appear-in">
       <div class="pricing-box">
         <div class="header">
           <h1>
@@ -246,7 +252,7 @@
         </div>
       </div>  
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 appear-in">
       <div class="pricing-box">
         <div class="header">
           <h1>
@@ -267,7 +273,7 @@
         </div>
       </div>  
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 appear-in">
       <div class="pricing-box">
         <div class="header">
           <h1>
@@ -309,7 +315,7 @@
         myemail@something.com
       </p>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 appear-in">
       <form>
         <div class="row">
           <div class="col-md-6">
@@ -341,7 +347,14 @@
 <div class="container-fluid footer text-center">
   <div id="top" class="toTop"></div>
   <p>Theme made by ME!!</p>
-</div>  
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/popper.js/dist/popper.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbd-woyijokiruxlsTr5d8MBXgkxV69ik&callback=myMap"></script>
+<script src="lib/script.js" type="text/javascript"></script>
 </body>
 </html>
 
