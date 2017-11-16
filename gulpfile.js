@@ -59,7 +59,7 @@ gulp.task('webserver', function() {
   gulp.src('')
     .pipe(server({
       livereload: true,
-      directoryListing: true,
-      open: true
+      open: true,
+      defaultFile: 'index.html'
     }));
 });
