@@ -61,6 +61,21 @@ p{
   color: #f4511e;
 }
 
+.highlight{
+  font-size: 19px;
+  line-height: 1.3em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.highlight-big{
+  font-size: 130%;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -163,9 +178,6 @@ p{
   h2{
     font-weight: 600;
   }
-  h3{
-    font-weight: 500;
-  }
   p{
     color: $p-color;
   }
@@ -262,15 +274,15 @@ p{
       margin-bottom: 1.3em;
     }
     .price{
-      h3{
-        font-size: 2em;
-        color: $p-color;
-        margin-bottom: 0.1em;
-      }
       p{
         color: #aaa;
         font-size: 1em;
         margin-bottom: 2.5em;
+      }
+      :first-child{
+        font-size: 2em;
+        color: $p-color;
+        margin-bottom: 0.1em;
       }
       button{
         background-color: $background-orange;
@@ -332,6 +344,7 @@ p{
     margin: auto;
     border: 0;
     background-color: transparent;
+    display: block;
   }
   p{
     padding-top: 10px;

@@ -1,0 +1,9 @@
+{
+  "name": "Company page",
+  "short_name": "Company",
+  "start_url": ".",
+  "dir": "ltr",
+  "display": "standalone",
+  "background_color": "#f6f6f6",
+  "description": "A simple company page."
+}

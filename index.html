@@ -6,11 +6,11 @@
   <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
   <meta name="description" content="Demo template">
   <meta charset="utf-8">
+  <link rel="manifest" href="/manifest.json">
   <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
-
 </head>
 <body id="Page" data-spy="scroll">
 
@@ -59,9 +59,9 @@
  <div class="row">
    <div class="col-md-8">
      <h2>ABOUT COMPANY PAGE</h2>
-     <h3>
+     <p class="highlight">
        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-     </h3>
+     </p>
      <p>
        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
      </p>
@@ -80,9 +80,9 @@
     </div>
     <div class="col-md-8">
       <h2>OUR VALUES</h2>
-      <h3>
+      <p class="highlight">
         <b>MISSION:</b> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </h3>
+      </p>
       <p>
         <b>VISION:</b> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
@@ -137,7 +137,7 @@
       <div class="row">
         <div class="col-md-4 appear-in">
           <figure class="portfolio-image">
-            <img src="http://via.placeholder.com/300x300">
+            <img src="http://via.placeholder.com/300x300" alt="Photo of Paris!">
             <figcaption>
               <b>Paris</b></br>This is Paris
             </figcaption>
@@ -145,7 +145,7 @@
         </div>
         <div class="col-md-4 appear-in">
           <figure class="portfolio-image">
-            <img src="http://via.placeholder.com/300x300">
+            <img src="http://via.placeholder.com/300x300" alt="Photo of New York!">
             <figcaption>
               <b>New York</b></br>This is New York
             </figcaption>
@@ -153,7 +153,7 @@
         </div>
         <div class="col-md-4 appear-in">
           <figure class="portfolio-image">
-            <img src="http://via.placeholder.com/300x300">
+            <img src="http://via.placeholder.com/300x300" alt="Photo of San Francisco">
             <figcaption>
               <b>San Francisco</b></br>This is San Francisco
             </figcaption>
@@ -173,31 +173,31 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h3>
+            <p class="highlight">
               <span>
                 "This company is the best. I am so happy with the result!"
               </span>
               <br>
               Michael Roe, Vice President, Comment Box
-            </h3>
+            </p>
           </div>
           <div class="carousel-item">
-            <h3>
+            <p class="highlight">
               <span>
                 "One word... WOW!!"
               </span>
               <br>
               John Doe, Salesman, Rep Inc
-            </h3>
+            </p>
           </div>
           <div class="carousel-item">
-            <h3>
+            <p class="highlight">
               <span>
                 "Could I... BE any more happy with this company?"
               </span>
               <br>
               Chandler Bing, Actor, FriendsAlot
-            </h3>
+            </p>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -215,7 +215,7 @@
 
 <section class="container-fluid pricing text-center" id="pricing">
   <h2>PRICING</h2>
-  <h4>Choose a payment plan that works for you</h4>
+  <p class="highlight">Choose a payment plan that works for you</p>
   <div class="row">
     <div class="col-md-3 appear-in">
       <div class="pricing-box">
@@ -232,7 +232,7 @@
           <p><b>Endless</b> Amet</p>
         </div>
         <div class="price">
-          <h3>$19</h3>
+          <p>$19</p>
           <p>per month</p>
           <button type="button" class="btn btn-pricing">Sign Up</button>
         </div>
@@ -253,7 +253,7 @@
           <p><b>Endless</b> Amet</p>
         </div>
         <div class="price">
-          <h3>$29</h3>
+          <p>$29</p>
           <p>per month</p>
           <button type="button" class="btn btn-pricing">Sign Up</button>
         </div>
@@ -274,7 +274,7 @@
           <p><b>Endless</b> Amet</p>
         </div>
         <div class="price">
-          <h3>$49</h3>
+          <p>$49</p>
           <p>per month</p>
           <button type="button" class="btn btn-pricing">Sign Up</button>
         </div>
@@ -304,15 +304,18 @@
     <div class="col-md-7 appear-in">
       <form>
         <div class="row">
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Name">
+          <div class="col-md-6 form-group">
+            <label for="contact_name" class="sr-only">Name</label>
+            <input type="text" class="form-control" placeholder="Name" id="contact_name">
           </div>
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Email">
+          <div class="col-md-6 form-group">
+            <label for="contact_email" class="sr-only">Email</label>
+            <input type="text" class="form-control" placeholder="Email" id="contact_email">
           </div>
         </div>
         <div class="input-group">
-          <textarea type="text" class="form-control" placeholder="Comment" rows="3"></textarea>
+          <label for="contact_comment" class="sr-only">Comment</label>
+          <textarea type="text" class="form-control" placeholder="Comment" rows="3" id="contact_comment"></textarea>
         </div>
       </form>
       <button type="submit" class="btn btn-custom">Send</button>
@@ -321,16 +324,13 @@
 </section>
 
 <section>
-  <iframe class="map"
-    frameborder="0"
-    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDbd-woyijokiruxlsTr5d8MBXgkxV69ik
-      &q=Chicago" allowfullscreen>
+  <iframe class="map" frameborder="0" title="Map of Chicago" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDbd-woyijokiruxlsTr5d8MBXgkxV69ik&q=Chicago" allowfullscreen>
   </iframe>
 </section>
 
 <footer>
   <div class="container-fluid footer text-center">
-    <button id="top" class="toTop"></button>
+    <a id="top" class="toTop"></a>
     <p>Theme made by ME!!</p>
   </div>
 </footer>
