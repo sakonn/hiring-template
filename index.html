@@ -2,11 +2,19 @@
 <html lang="SK">
 <head>
   <title>Demo template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=0.9">
-  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
-  <meta name="description" content="Demo template">
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript" />
+  <meta name="description" content="Demo template" />
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Company" />
+  <meta property="og:description" content="A simple company page" />
+  <meta property="og:site_name" content="COMPANY" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f6f6f6">
+  <link rel="manifest" href="manifest.json">
   <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -16,7 +24,7 @@
 
 <nav class="navbar navbar-expand-md navbar-custom fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#" id="navbar-logo">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +56,7 @@
       <h1>Company</h1>
       <p>We specialize in blablabla</p>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
         <button class="input-group-addon" id="basic-addon2">Subscribe</button>
       </div>
     </div>
@@ -94,38 +102,38 @@
   <h2>SERVICES</h2>
   <h3>What we offer</h3>
   <div class="row">
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-power-off icon-small" aria-hidden="true"></i>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-heart icon-small" aria-hidden="true"></i>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-briefcase icon-small" aria-hidden="true"></i>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-leaf icon-small" aria-hidden="true"></i>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-certificate icon-small" aria-hidden="true"></i>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-md-4 appear-in">
-      <i class="fa fa-wrench icon-small" aria-hidden="true"></i>
-      <h4>HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
+    <ul class="appear-in">
+      <li>
+        <i class="fa fa-power-off icon-small" aria-hidden="true"></i>
+        <p class="highlight">POWER</p>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+      <li>
+        <i class="fa fa-heart icon-small" aria-hidden="true"></i>
+        <p class="highlight">LOVE</p>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+      <li>
+        <i class="fa fa-briefcase icon-small" aria-hidden="true"></i>
+        <h4>JOB DONE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+      <li>
+        <i class="fa fa-leaf icon-small" aria-hidden="true"></i>
+        <h4>GREEN</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+      <li>
+        <i class="fa fa-certificate icon-small" aria-hidden="true"></i>
+        <h4>CERTIFIED</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+      <li>
+        <i class="fa fa-wrench icon-small" aria-hidden="true"></i>
+        <h4>HARD WORK</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </li>
+    </ul>
   </div>
 </section>
 
@@ -306,11 +314,11 @@
         <div class="row">
           <div class="col-md-6 form-group">
             <label for="contact_name" class="sr-only">Name</label>
-            <input type="text" class="form-control" placeholder="Name" id="contact_name">
+            <input type="name" class="form-control" placeholder="Name" id="contact_name">
           </div>
           <div class="col-md-6 form-group">
             <label for="contact_email" class="sr-only">Email</label>
-            <input type="text" class="form-control" placeholder="Email" id="contact_email">
+            <input type="email" class="form-control" placeholder="Email" id="contact_email">
           </div>
         </div>
         <div class="input-group">
@@ -330,7 +338,7 @@
 
 <footer>
   <div class="container-fluid footer text-center">
-    <a id="top" class="toTop"></a>
+    <a id="top" class="toTop" href="#"></a>
     <p>Theme made by ME!!</p>
   </div>
 </footer>
