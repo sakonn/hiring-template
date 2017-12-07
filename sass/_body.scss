@@ -435,12 +435,24 @@ p{
 
 @media screen and (min-width: 1920px) {
   :root {
-    font-size: 30px;
+    zoom: 1.5;
+    -moz-transform: scale(1.5);
+    -moz-transform-origin: 0 0;
   }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2500px) {
   :root {
-    font-size: 40px;
+    zoom: 2;
+    -moz-transform: scale(2);
+    -moz-transform-origin: 0 0;
+  }
+}
+
+@media screen and (min-width: 3100px) {
+  :root {
+    zoom: 2.5;
+    -moz-transform: scale(2.5);
+    -moz-transform-origin: 0 0;
   }
 }
